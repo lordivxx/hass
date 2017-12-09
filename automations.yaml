@@ -1,0 +1,20 @@
+- action:
+  - alias: ''
+    data: 
+      message: 'Heeeey man get up and do that that thing you were too tired to do last night before bed!'
+    service: tts.google_say
+    entity_id: media_player.bedroom_speaker
+  alias: N
+  condition: []
+  id: '1512810990667'
+  trigger:
+  - platform: state 
+    entity_id: sun.sun
+    from: below_horizon
+    to: above_horizon
+  #trigger:
+  #- entity_id: input_select.threat
+  #  from: '0'
+  #  platform: state
+  #  to: '3'
+
