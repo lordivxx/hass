@@ -1,10 +1,10 @@
 - action:
-  - alias: ''
+  - alias: 'Sun Salutation'
     data: 
-      message: 'Heeeey man get up and do that that thing you were too tired to do last night before bed!'
+      message: 'Good Moring people of the Forsyth home! The sun is has appeared above the horizon, lets greet the day!'
     service: tts.google_say
     entity_id: media_player.bedroom_speaker
-  alias: N
+  alias: 'Sun Salutation'
   condition: []
   id: '1512810990667'
   trigger:
